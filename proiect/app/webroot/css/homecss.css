@@ -1,0 +1,499 @@
+div.cover{
+    width: 1000px;
+    height: 350px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#SignIn
+{
+    background: none repeat scroll 0 0 #00A8FF;
+    border: 5px;
+    color: #FFFFFF; !important
+    cursor: pointer;
+    font-size: 1.1em;
+    height: 1.4em;
+    position:absolute;
+    margin-left: 76%;
+    margin-top:-22%;
+}
+#JoinNow
+{
+    background: none repeat scroll 0 0 #00A8FF;
+    border: 5px;
+    color: #FFFFFF; !important
+    cursor: pointer;
+    font-size: 1.1em;
+    height: 1.4em;
+    position:absolute;
+    margin-left: 80.9%;
+    margin-top:-22%;
+}
+#locN1
+{
+    width: 60%;
+}
+#signup,#admin
+{
+    background: linear-gradient(45deg, #F7F7F7 0%, #FFFFFF 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #CFCCCC;
+    align-content:center;
+    color: #95ABB7;
+    padding: 10px;
+    margin-top:-0.5%;
+    overflow: hidden;
+    margin-left: 25%;
+    margin-right: 24%;
+    background-position: center;
+}
+div.login, div.user
+  {
+      background:white;
+      align-content:center;
+      color: #95ABB7;
+      padding: 10px;
+      margin-top:-33.6%;
+      overflow: hidden;
+      margin-left: 56.5%;
+      position:absolute;
+  }
+#dont
+{
+    margin-left:29%;
+    margin-top:-33%;
+    font-family: "Estrangelo Edessa";
+    position:absolute;
+}
+#locatie
+{
+    background: linear-gradient(45deg, #F7F7F7 0%, #FFFFFF 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #CFCCCC;
+    align-content:center;
+    color: #95ABB7;
+    padding: 10px;
+    margin-top:-2.4%;
+    width: 33%;
+    overflow: hidden;
+    margin-left: 50%;
+}
+#changes
+{
+    margin-left:41%;
+    font-family: 'Open Sans';
+    font-size:28px;
+    font-style:italic;
+    text-decoration: underline;
+    color: #335d73;
+}
+#signup label, #signup input, #locatie label, #locatie input,#admin input, #admin label {
+    width: 48%;
+    float: left;
+}
+#submit1
+{
+    margin-left: 26%;
+    background: none repeat scroll 0 0 #00A8FF;
+    border: medium none;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-size: 1.1em;
+    height: 1.4em;
+    width: 10em;
+}
+#btn
+{
+    margin-left: 3%;
+    margin-top: 3%;
+    background: none repeat scroll 0 0 #00A8FF;
+    border: medium none;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-size: 1.1em;
+    height: 1.4em;
+    width: 10em;
+}
+#fileInput
+{
+    float:left;
+    height:0px;
+    overflow:hidden;
+}
+#submit
+{
+    background: none repeat scroll 0 0 #00A8FF;
+    border: medium none;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-size: 1.1em;
+    height: 1.4em;
+    width: 10em;
+}
+#rezerva
+{
+    margin-left: 26%;
+    background: none repeat scroll 0 0 #00A8FF;
+    border: medium none;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-size: 1.1em;
+    height: 1.4em;
+    width: 10em;
+}
+
+#penInHand{
+    width: 50%;
+    overflow: hidden;
+    margin-left: 25%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#paradise
+{
+    color: #f9fff9;
+    position: absolute;
+    margin-left:60%;
+    margin-top:-11%;
+    font-family:"Magneto";
+    font-size:28px;
+}
+div.buttons
+{
+    text-align: center;
+}
+#Home,#aboutUs,#Contact,#Find
+{
+    background: none repeat scroll 0 0 #00A8FF;
+    border: 5px;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-size: 24px;
+    height: 55px;
+    width: 247px;
+    margin-top: auto;
+}
+a:link,a:visited
+{
+    text-decoration:none;
+    color:white;
+}
+
+#img1
+{
+    width:50%;
+    margin-left:9%;
+    float:left;
+    border-radius:3%;
+}
+#textcontact,#titlecontact
+{
+    margin-right:9%;
+}
+#divcontact
+{
+    background: linear-gradient(45deg, #F7F7F7 0%, #FFFFFF 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    text-align:center;
+    background-color: #75a2ff;
+    padding:50px;
+    display:none;
+ }
+h4
+{
+    font-family:"Magneto";
+    font-size:28px;
+    color: #294758;
+}
+p
+{
+    font-family: 'Open Sans';
+    font-size:22px;
+    color: #3e677d;
+}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+#about
+{
+    background: linear-gradient(45deg, #F7F7F7 0%, #FFFFFF 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    font-family: 'Open Sans';
+    tab-size: 4;
+    position: relative;
+    overflow: hidden;
+    margin: -33px auto 0 auto;
+    display: none;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#location
+{
+    position: relative;
+    overflow: hidden;
+    display:block;
+}
+#slider{
+    position: relative;
+    overflow: hidden;
+    margin: -33px auto 0 auto;
+    display: block;
+}
+
+#slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none;
+}
+
+#slider ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: 450px;
+    text-align: center;
+    line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+    -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+    border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+    position: relative;
+    margin: 10px auto;
+    width: 160px;
+    font-size: 18px;
+}
+#contactus
+{
+    padding:0px;
+    border-radius: 10px;
+}
+#avion
+{
+    margin-left: 13%;
+    margin-right:1%;
+    position:relative;
+    width: 995px;
+}
+#post table, #post1 table
+{
+    background: #3285ff;
+    font-family: sans-serif;
+    font-size: .9em;
+    text-align: left;
+    line-height: 40px;
+    margin-left: 36%;
+    margin-top: -1%;
+    width:400px;
+    height: 40px;
+    font-weight: bold;
+    color:white;
+}
+#camera1,#camera2,#camera3,#camera4
+{
+    margin-left:10%;
+    width: 45%;
+}
+tr:first-child
+{
+    background: #75a2ff;
+    color: rgb(41, 71, 88);
+}
+th {font-weight: bold;}
+th:first-child, td:first-child {padding: 0 15px 0 20px;}
+
+tr:last-child th {border-bottom: 2px solid #ddd;}
+
+tr:last-child td {border: none;}
+td {border-bottom: 1px solid #ddd;}
+
+td:last-child {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#loc1 {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin-left:10%;
+}
+
+#loc11 {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: 100px;
+    width: 200px;
+    float:left;
+}
+
+#loc111 {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: 100px;
+    width: 200px;
+}
+#loc12
+{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: 150px;
+    width: 300px;
+    float: left;
+    margin-left:12%;
+}
+#loc112
+{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: 150px;
+    width: 300px;
+    float: left;
+}
+#loc1112
+{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: 150px;
+    width: 300px;
+}
+#idloc
+{
+    margin-left:44%;
+    font-size:40px;
+    font-family: "Estrangelo Edessa";
+    margin-top:-1.5%;
+
+}
+#idloc1
+{
+    margin-left:25%;
+    margin-right:25%;
+    font-style: italic;
+
+}
+#statistica
+{
+    margin-top:-0.7%;
+    margin-left:16%;
+    float:left;
+
+}
+#management
+{
+    font-family:"Magneto";
+    font-size:28px;
+    color: #294758;
+}
+#su
+{
+    background: none repeat scroll 0 0 #00A8FF;
+    border: medium none;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-size: 1.1em;
+    height: 1.4em;
+    width: 10em;
+    margin-left:29.8%;
+    margin-top: -30.2%;
+    position: absolute;
+}
+#textcamera1,#textcamera2,#textcamera3,#textcamera4
+{
+    margin-left:57%;
+    margin-right:12%;
+    margin-top:-30%;
+    float:right;
+    font-family: "Estrangelo Edessa";
+    font-size: 25px;
+    color: #294758;
+}
+#submit2
+{
+    margin-left: 43%;
+    background: none repeat scroll 0 0 #00A8FF;
+    border: medium none;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-size: 2.1em;
+    height: 1.4em;
+    width: 8em;
+}
+#roomsize
+{
+    width:25%;
+}
+#central
+{
+    margin-left:3.7%;
+    background: none repeat scroll 0 0 #00A8FF;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-size: 1.1em;
+    height: 1.4em;
+    width: 10em;
+}
+#paragraf
+{
+    color: #07143f;
+    position:absolute;
+    margin-left:40%;
+    margin-top: 5%;
+}
+#check,#check1,#check2
+{
+    margin-left: 10%;
+}
+
+ marquee img {
+     height: 75px;
+     width: 100px;
+ }

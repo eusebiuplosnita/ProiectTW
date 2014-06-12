@@ -1,0 +1,12 @@
+$(document).ready(function () {$("#link-481742833").bind("click", function (event) {$.ajax({dataType:"html", success:function (data, textStatus) {$("#room").html(data);}, url:"\/proiect\/Admin\/index\/Admin:editLocation"});
+return false;});
+$("#link-1873796515").bind("click", function (event) {$.ajax({dataType:"html", success:function (data, textStatus) {$("#room").html(data);}, url:"\/proiect\/Admin\/index\/Admin:editLocation"});
+return false;});
+$("#link-1037013768").bind("click", function (event) {$.ajax({dataType:"html", success:function (data, textStatus) {$("#room").html(data);}, url:"\/proiect\/Admin\/index\/Admin:editLocation"});
+return false;});
+$("#link-719707613").bind("click", function (event) {$.ajax({dataType:"html", success:function (data, textStatus) {$("#room").html(data);}, url:"\/proiect\/Admin\/index\/Admin:editLocation"});
+return false;});
+$("#link-551311183").bind("click", function (event) {$.ajax({dataType:"html", success:function (data, textStatus) {$("#room").html(data);}, url:"\/proiect\/Admin\/index\/Admin:editLocation"});
+return false;});
+$("#submit1").bind("click", function (event) {$.ajax({beforeSend:function (XMLHttpRequest) {$("#inprogress").fadeIn();}, data:$("#submit1").closest("form").serialize(), dataType:"html", succes:"$(\"#inprogress\").fadeOut();", success:function (data, textStatus) {$("#post").html(data);}, type:"post", url:"\/proiect\/Admin"});
+return false;});});
